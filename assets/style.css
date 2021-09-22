@@ -1,0 +1,33 @@
+
+
+#top-page {
+    height: 50px;
+    color: white;
+    background-image: linear-gradient(to right, blue , rgb(51, 0, 99));
+    margin: auto;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.city-search {
+float: left;
+padding: 10px;
+}
+
+.weather-area {
+    float: right;
+    width: 300px;
+    border: 1px solid black;
+    padding: 50px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.weather-area
+
+.forecast-section {
+display: flex;
+}
