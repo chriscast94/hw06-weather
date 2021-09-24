@@ -1,41 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
     <title>Weather Dashboard</title>
 </head>
+
 <body>
     <header id="top-page">
         <h1>Weather Dashboard</h1>
     </header>
 
-    <main class ="container">
-        <section class="city-search">
-            <h2>Search for a City</h2>
-            <input type="text" placeholder="placeholder" id="search-input">
-            <button id="city-search-btn">Search</button>
-            <div id="city-area">
+    <main class="container">
+        <div class="top">
+            <section class="city-search">
+                <h2>Search for a City</h2>
+                <input type="text" placeholder="placeholder" id="search-input">
+                <button id="city-search-btn">Search</button>
+                <div id="city-area">
 
-            </div>
-        </section>
+                </div>
+            </section>
 
-        <section class="weather-area">
-            <h2 id="weather-title"></h2>
-            <div id="current-city-weather"></div>
+            <section class="weather-area">
+                <h2 id="weather-title"></h2>
+                <div id="current-city-weather">
+                    <li id="temp"></li>
+                    <li id="wind"></li>
+                    <li id="humidity"></li>
+                    <li id="uvi"></li>
+                </div>
 
 
-        </section>
+            </section>
+        </div>
 
-        <section class="forecast-section">
-            <h2>5-day Forecast:</h2>
-            <div id="forecast-area">
+        <div class="bottom">
 
-            </div>
-        </section>
+            <section class="forecast-section">
+                <h2>5-day Forecast:</h2>
+                <div id="forecast-area">
+                  
+
+                    <!-- <div id="day1">
+
+                    </div>
+
+                    <div id="day2">
+
+                    </div>
+
+                    <div id="day3">
+
+                    </div>
+
+                    <div id="day4">
+
+                    </div>
+
+                    <div id="day5">
+
+                    </div> -->
+
+                </div>
+            </section>
+        </div>
     </main>
-<script src="assets/script.js"></script> 
+    <!-- <script src="jquery-3.5.1.min.js"></script> -->
+    <script src="assets/script.js"></script>
 </body>
+
 </html>

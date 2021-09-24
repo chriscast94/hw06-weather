@@ -10,6 +10,7 @@
 
 .container {
     display: flex;
+    flex-direction: column;
 }
 
 .city-search {
@@ -26,8 +27,11 @@ padding: 10px;
     padding: 10px;
 }
 
-.weather-area
+.weather-area {
+    width: 75%
 
-.forecast-section {
-display: flex;
 }
+
+ .forecast-section {
+     float: right;
+} 
